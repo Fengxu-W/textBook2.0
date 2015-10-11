@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>textbook</title>
     <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <!--    <link rel="stylesheet" href="bootstrap.min.css">-->
     <link rel="stylesheet" href="page.css">
@@ -19,6 +20,18 @@
             }
         }
     </script>
+    <style>
+        @media (min-width: 481px) {
+            .container{
+                width: 75%;
+            }
+        }
+        @media (max-width: 480px) {
+            .container{
+                width: 85%;
+            }
+        }
+    </style>
 </head>
 <body>
 <!--<div class="side-nav" role="navigation">-->
