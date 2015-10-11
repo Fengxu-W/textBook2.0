@@ -1,0 +1,19 @@
+.side-nav{
+    position: fixed;
+    top: 45%;
+    right: 40px;
+    z-index: 1;
+}
+
+.side-nav ul.nav-side-nav{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.side-nav ul.nav-side-nav >li{
+    display: block;
+    line-height: 1.45em;
+    margin: 0;
+    padding: 8px 0;
+}
